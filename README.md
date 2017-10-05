@@ -1,4 +1,4 @@
-#Ray Tracer
+# Ray Tracer
 simple physically based raytracer
 
 ## Usage
