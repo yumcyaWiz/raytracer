@@ -790,14 +790,11 @@ int main(void) {
     
     RGB royalBlue = RGB(65/255.0, 105/255.0, 225/255.0);
     Scene scene;
-    //scene.add(new Sphere(Vec3(0), 1, Glass(RGB(1), 1.2)));
-    //scene.add(new Sphere(Vec3(0, 0, -5), 1.0, Diffuse(royalBlue)));
-    scene.add(new Plane(Vec3(0, -1, 0), Vec3(0, 1, 0), 10.0, Diffuse(RGB(0.5))));
-    for(int i = 0; i < 30; i++) {
-        scene.add(new Sphere(randVec()*3, noise(), Mirror(RGB(1.0))));
-    }
-    //scene.add(new Sphere(Vec3(-3, 0, 0), 1, Diffuse(RGB(0.9))));
-    //scene.add(new Sphere(Vec3(3, 0, 0), 1, Mirror(RGB(1))));
+    scene.add(new Plane(Vec3(0, -1, 0), Vec3(0, 1, 0), 10.0, Diffuse(RGB(1, 1, 1))));
+    scene.add(new Sphere(Vec3(0), 1, Glass(RGB(1), 1.4)));
+    scene.add(new Sphere(Vec3(0, 0, -5), 1.0, Diffuse(royalBlue)));
+    scene.add(new Sphere(Vec3(-3, 0, 0), 1, Diffuse(RGB(0.9))));
+    scene.add(new Sphere(Vec3(3, 0, 0), 1, Mirror(RGB(1))));
     
    
     /*

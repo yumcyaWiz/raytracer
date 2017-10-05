@@ -1,0 +1,10 @@
+*.ppm
+*.png
+*.jpg
+*.hdr
+hdrloader
+a.out
+hdr_test.cpp
+hdr_test2.cpp
+stb_image.h
+piccante
