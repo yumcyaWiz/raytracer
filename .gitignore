@@ -1,7 +1,7 @@
-*.ppm
-*.png
-*.jpg
-*.hdr
+/*.ppm
+/*.png
+/*.jpg
+/*.hdr
 hdrloader
 a.out
 hdr_test.cpp
